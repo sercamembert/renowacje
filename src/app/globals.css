@@ -4,6 +4,6 @@
 
 @layer {
   .padding {
-    @apply px-[15px] md:px-[40px] lg:px-[100px] 2xl:px-[250px] 3xl:px-[300px];
+    @apply px-[15px] sm:px-[40px] md:px-[60px] lg:px-[100px] xl:px-[200px] 2xl:px-[250px] 3xl:px-[330px];
   }
 }

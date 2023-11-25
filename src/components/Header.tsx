@@ -10,14 +10,18 @@ const Header = () => {
     <nav
       className={
         isOpen
-          ? "w-full min-h-[70px] py-4 padding bg-primary"
-          : "w-full min-h-[70px] py-4 padding "
+          ? "w-full min-h-[70px] py-2 padding bg-primary fixed top-0 z-50"
+          : "w-full min-h-[70px] py-2 padding fixed top-0 bg-white z-50"
       }
     >
       <Navbar
         fluid={true}
         rounded={true}
-        className={isOpen ? "w-full bg-primary" : "w-full"}
+        className={
+          isOpen
+            ? "w-full bg-primary px-0 sm:px-0"
+            : "w-full bg-white px-0 sm:px-0"
+        }
       >
         <Navbar.Brand href="/">
           <div className="flex gap-2 items-center">
