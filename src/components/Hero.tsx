@@ -11,7 +11,7 @@ interface Props {}
 const Hero = () => {
   return (
     <motion.div
-      className="padding bg-accent w-full min-h-[650px] pb-[80px] sm:pb-[60px] pt-[130px] sm:pt-[150px] sm:min-h-[600px] flex flex-col sm:flex-row  gap-y-7"
+      className="padding bg-accent w-full min-h-[650px] pb-[80px] sm:pb-[60px] pt-[130px] sm:pt-[150px] sm:min-h-[600px] 2xl:min-h-screen flex flex-col sm:flex-row  gap-y-7"
       initial={{ x: -2000 }}
       animate={{ x: 0 }}
       transition={{ duration: 0.5 }}
