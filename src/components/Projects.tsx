@@ -10,7 +10,7 @@ interface Props {}
 
 const Projects = () => {
   return (
-    <section className="padding w-full my-[100px] md:my-[200px]">
+    <section className="padding w-full my-[100px] md:my-[200px]" id="projekty">
       <div className="container mx-auto">
         <p className="text-secondary text-[30px] sm:text-[35px] lg:text-[40px] 2xl:text-[50px] pb-5 md:pb-10">
           Nasze ostatnie realizacje

@@ -22,6 +22,7 @@ const Services = () => {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.5 }}
+          id="uslugi"
         >
           <Image
             src={malowanieImg}

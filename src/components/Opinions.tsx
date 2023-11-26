@@ -6,7 +6,10 @@ interface Props {}
 
 const Opinions = () => {
   return (
-    <div className="padding w-full flex flex-col items-center lg:items-start my-[100px] md:my-[200px]">
+    <div
+      className="padding w-full flex flex-col items-center lg:items-start my-[100px] md:my-[200px]"
+      id="opinie"
+    >
       <p className="text-secondary text-[30px] sm:text-[35px] lg:text-[40px] 2xl:text-[50px] pb-5 md:pb-10">
         Co sądzą o nas <b>klienci</b>
       </p>

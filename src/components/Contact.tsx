@@ -4,7 +4,10 @@ interface Props {}
 
 const Contact = () => {
   return (
-    <div className="w-full padding flex flex-col my-[100px] md:my-[200px] relative">
+    <div
+      className="w-full padding flex flex-col my-[100px] md:my-[200px] relative"
+      id="kontakt"
+    >
       <p className="text-secondary text-[30px] sm:text-[35px] lg:text-[40px] 2xl:text-[50px] pb-4">
         Darmowa <b>wycena</b>
       </p>
@@ -59,7 +62,7 @@ const Contact = () => {
         </label>
       </div>
       <div className="absolute -bottom-14 lg:-bottom-16 bg-secondary text-white py-2 px-3 md:px-5 lg:py-3 uppercase rounded font-medium text-[12px] md:text-sm hover:brightness-75 cursor-pointer">
-        darmowa wycena
+        Otrzymaj wycene
       </div>
     </div>
   );
