@@ -37,7 +37,9 @@ const About = () => {
   ];
   return (
     <div className="padding w-full my-[70px] flex flex-col gap-5 ">
-      <p className="text-secondary text-[30px] sm:text-[35px] pl-2">O nas</p>
+      <p className="text-secondary text-[30px] sm:text-[35px] pl-2 lg:text-[40px] 2xl:text-[50px]">
+        O nas
+      </p>
       <motion.div
         initial={{ x: -100 }}
         whileInView={{ x: 0 }}
@@ -46,7 +48,7 @@ const About = () => {
       >
         {persons.map((person, index) => (
           <motion.div
-            className={selectedPerson == index ? "flex gap-3" : "hidden"}
+            className={selectedPerson == index ? "flex gap-5" : "hidden"}
             animate={selectedPerson === index ? "open" : "closed"}
             transition={{ duration: 0.5 }}
             variants={variants}
@@ -56,7 +58,7 @@ const About = () => {
               height={200}
               src={person.image}
               alt="Person 1 img"
-              className="w-[120px] h-[120px] sm:w-[170px] sm:h-[170px] lg:w-[200px] lg:h-[200px]"
+              className="w-[120px] h-[120px] sm:w-[170px] sm:h-[170px] lg:w-[200px] lg:h-[200px] rounded"
             />
             <div className="flex flex-col pt-2 lg:pt-4 ">
               <div className="flex items-center gap-2 sm:gap-4">
