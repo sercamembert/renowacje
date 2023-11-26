@@ -6,6 +6,7 @@ import Opinions from "@/components/Opinions";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
 import Location from "@/components/Location";
+import Partners from "@/components/Partners";
 export default function Home() {
   return (
     <div className="w-full">
@@ -17,6 +18,7 @@ export default function Home() {
       <Opinions />
       <Contact />
       <Location />
+      <Partners />
     </div>
   );
 }
